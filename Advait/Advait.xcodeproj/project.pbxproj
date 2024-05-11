@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9452324B2BED03A900579CEF /* AdvaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452324A2BED03A900579CEF /* AdvaitApp.swift */; };
+		9452324F2BED03AC00579CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9452324E2BED03AC00579CEF /* Assets.xcassets */; };
+		945232522BED03AC00579CEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945232512BED03AC00579CEF /* Preview Assets.xcassets */; };
+		945232542BED03AC00579CEF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232532BED03AC00579CEF /* Persistence.swift */; };
+		9452325E2BED092E00579CEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452325D2BED092E00579CEF /* HomeView.swift */; };
+		945232622BED325C00579CEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232612BED325C00579CEF /* NetworkManager.swift */; };
+		945232652BED365F00579CEF /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232642BED365F00579CEF /* ImageViewModel.swift */; };
+		945232682BEE1EB100579CEF /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232672BEE1EB100579CEF /* ImageDataModel.swift */; };
+		9452326A2BEE1F2600579CEF /* ThumbnailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232692BEE1F2600579CEF /* ThumbnailModel.swift */; };
+		9452326D2BEE455100579CEF /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452326C2BEE455100579CEF /* LoaderView.swift */; };
+		9452326F2BEE505B00579CEF /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452326E2BEE505B00579CEF /* AsyncImageView.swift */; };
+		945232712BEE508700579CEF /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232702BEE508700579CEF /* ImageLoader.swift */; };
+		9452327F2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9452327D2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodeld */; };
+		945232862BEF144800579CEF /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945232852BEF144800579CEF /* ImageModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		945232472BED03A900579CEF /* Advait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9452324A2BED03A900579CEF /* AdvaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvaitApp.swift; sourceTree = "<group>"; };
+		9452324E2BED03AC00579CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		945232512BED03AC00579CEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		945232532BED03AC00579CEF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9452325D2BED092E00579CEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		945232612BED325C00579CEF /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		945232642BED365F00579CEF /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		945232672BEE1EB100579CEF /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		945232692BEE1F2600579CEF /* ThumbnailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailModel.swift; sourceTree = "<group>"; };
+		9452326C2BEE455100579CEF /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		9452326E2BEE505B00579CEF /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		945232702BEE508700579CEF /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		9452327E2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdvaitCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		945232802BEE755500579CEF /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		945232812BEE755500579CEF /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		945232852BEF144800579CEF /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945232442BED03A900579CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9452323E2BED03A900579CEF = {
+			isa = PBXGroup;
+			children = (
+				945232492BED03A900579CEF /* Advait */,
+				945232482BED03A900579CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945232482BED03A900579CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945232472BED03A900579CEF /* Advait.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945232492BED03A900579CEF /* Advait */ = {
+			isa = PBXGroup;
+			children = (
+				945232752BEE6F1700579CEF /* CoreData */,
+				9452326B2BEE453500579CEF /* ReUsableViews */,
+				945232662BEE1D9E00579CEF /* Model */,
+				945232602BED0D4D00579CEF /* NetworkManager */,
+				945232632BED363D00579CEF /* ViewModel */,
+				9452325F2BED0D3A00579CEF /* View */,
+				9452324A2BED03A900579CEF /* AdvaitApp.swift */,
+				9452324E2BED03AC00579CEF /* Assets.xcassets */,
+				945232532BED03AC00579CEF /* Persistence.swift */,
+				945232502BED03AC00579CEF /* Preview Content */,
+			);
+			path = Advait;
+			sourceTree = "<group>";
+		};
+		945232502BED03AC00579CEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				945232512BED03AC00579CEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9452325F2BED0D3A00579CEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9452325D2BED092E00579CEF /* HomeView.swift */,
+				9452326E2BEE505B00579CEF /* AsyncImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		945232602BED0D4D00579CEF /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				945232612BED325C00579CEF /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		945232632BED363D00579CEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				945232642BED365F00579CEF /* ImageViewModel.swift */,
+				945232702BEE508700579CEF /* ImageLoader.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		945232662BEE1D9E00579CEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				945232672BEE1EB100579CEF /* ImageDataModel.swift */,
+				945232692BEE1F2600579CEF /* ThumbnailModel.swift */,
+				945232852BEF144800579CEF /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9452326B2BEE453500579CEF /* ReUsableViews */ = {
+			isa = PBXGroup;
+			children = (
+				9452326C2BEE455100579CEF /* LoaderView.swift */,
+			);
+			path = ReUsableViews;
+			sourceTree = "<group>";
+		};
+		945232752BEE6F1700579CEF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				945232762BEE713F00579CEF /* Model */,
+				9452327D2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		945232762BEE713F00579CEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				945232802BEE755500579CEF /* User+CoreDataClass.swift */,
+				945232812BEE755500579CEF /* User+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945232462BED03A900579CEF /* Advait */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9452325A2BED03AC00579CEF /* Build configuration list for PBXNativeTarget "Advait" */;
+			buildPhases = (
+				945232432BED03A900579CEF /* Sources */,
+				945232442BED03A900579CEF /* Frameworks */,
+				945232452BED03A900579CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Advait;
+			productName = Advait;
+			productReference = 945232472BED03A900579CEF /* Advait.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9452323F2BED03A900579CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					945232462BED03A900579CEF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 945232422BED03A900579CEF /* Build configuration list for PBXProject "Advait" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9452323E2BED03A900579CEF;
+			productRefGroup = 945232482BED03A900579CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945232462BED03A900579CEF /* Advait */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945232452BED03A900579CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945232522BED03AC00579CEF /* Preview Assets.xcassets in Resources */,
+				9452324F2BED03AC00579CEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945232432BED03A900579CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945232622BED325C00579CEF /* NetworkManager.swift in Sources */,
+				945232712BEE508700579CEF /* ImageLoader.swift in Sources */,
+				945232542BED03AC00579CEF /* Persistence.swift in Sources */,
+				945232652BED365F00579CEF /* ImageViewModel.swift in Sources */,
+				9452326F2BEE505B00579CEF /* AsyncImageView.swift in Sources */,
+				945232682BEE1EB100579CEF /* ImageDataModel.swift in Sources */,
+				9452327F2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodeld in Sources */,
+				9452325E2BED092E00579CEF /* HomeView.swift in Sources */,
+				9452326D2BEE455100579CEF /* LoaderView.swift in Sources */,
+				9452324B2BED03A900579CEF /* AdvaitApp.swift in Sources */,
+				9452326A2BEE1F2600579CEF /* ThumbnailModel.swift in Sources */,
+				945232862BEF144800579CEF /* ImageModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		945232582BED03AC00579CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		945232592BED03AC00579CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9452325B2BED03AC00579CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advait/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CN594N7G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.viperDesign.Advait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9452325C2BED03AC00579CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advait/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CN594N7G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaurav.viperDesign.Advait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945232422BED03A900579CEF /* Build configuration list for PBXProject "Advait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945232582BED03AC00579CEF /* Debug */,
+				945232592BED03AC00579CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9452325A2BED03AC00579CEF /* Build configuration list for PBXNativeTarget "Advait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9452325B2BED03AC00579CEF /* Debug */,
+				9452325C2BED03AC00579CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9452327D2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9452327E2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 9452327E2BEE752D00579CEF /* AdvaitCoreDataModel.xcdatamodel */;
+			name = AdvaitCoreDataModel.xcdatamodeld;
+			path = "/Users/c294859/Documents/iOS Projects/Advait/Advait/CoreData/AdvaitCoreDataModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9452323F2BED03A900579CEF /* Project object */;
+}

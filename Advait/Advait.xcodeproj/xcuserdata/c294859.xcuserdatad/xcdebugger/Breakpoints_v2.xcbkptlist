@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "298DCD71-4A8F-4109-BCA8-992C34CB7C7C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0232B928-5C74-46D4-9275-D320692B879C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advait/ViewModel/ImageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "processAndSaveImageDataToDataBase(imageData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "721FE895-62EC-4D8B-9D41-38D1FFD05D14"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advait/ViewModel/ImageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "ImageViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05155F9A-28E2-4B1C-A16F-50F5909699E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advait/View/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B05A84E-56D2-45AB-9825-344FD2D5ED1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advait/ViewModel/ImageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchImageList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A51B82B8-796F-4D5C-ADE3-05373445AAF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Advait/View/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "mainView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A51B82B8-796F-4D5C-ADE3-05373445AAF3 - c72618574e1ed6dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Advait.ImageModel&gt;, Advait.ImageModel, &lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in Advait.HomeView.mainView() -&gt; some"
+                  moduleName = "Advait"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c294859/Documents/iOS%20Projects/Advait/Advait/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "A51B82B8-796F-4D5C-ADE3-05373445AAF3 - 652d1084b2891275"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Advait.ImageModel) -&gt; &lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Advait.ImageModel&gt;, Advait.ImageModel, &lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in Advait.HomeView.mainView() -&gt; some"
+                  moduleName = "Advait"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c294859/Documents/iOS%20Projects/Advait/Advait/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
